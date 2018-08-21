@@ -72,9 +72,8 @@ Within the docker image, launch the following
 	cd $SARA_HOME
 
     # Install itag - [WARNING] this is quite long !
-    ./02_install_itag.sh config  
+    ./02_install_itag.sh --config config
 
     # Install resto
-    ./03_install_resto.sh config 
-    
+    ./03_install_resto.sh --config config
 
